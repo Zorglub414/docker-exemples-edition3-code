@@ -8,6 +8,8 @@ cd $BASEDIR
 # Mot de passe de la base de donnée
 MYSQL_ROOT_PASSWORD=root
 
+#comment for third branch
+
 # Compilation de l'application front-end
 ../../application-exemple/build/basique/build.sh
 sudo chown $(whoami):$(whoami) *.jar
