@@ -3,6 +3,8 @@ FROM python:3-slim-stretch
 # Installation du processus cron
 RUN apt-get update && apt-get install -y cron
 
+#Je rajoute un commentaire pour le fun
+
 # Requis en raison des accents dans le code python
 ENV PYTHONIOENCODING=utf-8
 # Installation du cronjob
