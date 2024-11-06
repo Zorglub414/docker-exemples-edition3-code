@@ -4,6 +4,7 @@ FROM python:3-slim-stretch
 RUN apt-get update && apt-get install -y cron
 
 #Je rajoute un commentaire pour le fun
+#Je rajoute encpre un commentaire tout pourri :)
 
 # Requis en raison des accents dans le code python
 ENV PYTHONIOENCODING=utf-8
